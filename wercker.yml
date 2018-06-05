@@ -1,0 +1,8 @@
+webhook1:
+  steps:
+    script:
+      code: echo "webhook1"
+webhook2:
+  steps:
+    script:
+      code: echo "webhook2"  
