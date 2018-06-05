@@ -1,3 +1,4 @@
+box: alpine
 webhook1:
   steps:
     - script:
