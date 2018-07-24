@@ -21,6 +21,7 @@ workflows:
             branches:
               only:
                 - master
+                - change_circle_in_branch
     jobs:
       - build 
 
