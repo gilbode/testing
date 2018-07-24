@@ -11,3 +11,12 @@ jobs:
       - run:
           name: Print the Current Time
           command: date
+workflows:
+   version: 2
+   nightly:
+     triggers:
+       - schedule:
+           cron: "*/12 0 * * *"
+     jobs:
+       - build
+
