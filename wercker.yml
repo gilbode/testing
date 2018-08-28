@@ -10,10 +10,10 @@ webhook2:
 build:
   steps:
     - script:
-      code: find /
+      code: env
 downstream:
   steps:
     - script:
-      code: find /
+      code: env
 
 
