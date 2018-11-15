@@ -11,6 +11,10 @@ build:
   steps:
     - script:
       code: env
+    - script:
+      code: apk add --no-cache curl
+    - script:
+      code: curl -s http://whatismyip.akamai.com/      
 downstream:
   steps:
     - script:
