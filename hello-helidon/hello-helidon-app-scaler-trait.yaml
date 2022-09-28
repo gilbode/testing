@@ -4,7 +4,7 @@ apiVersion: core.oam.dev/v1alpha2
 kind: ApplicationConfiguration
 metadata:
   name: hello-helidon
-  namespcae: hello-helidon-fleet
+  namespace: hello-helidon-fleet
   annotations:
     version: v1.0.0
     description: "Hello Helidon application"
